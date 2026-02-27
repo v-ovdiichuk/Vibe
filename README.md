@@ -1,43 +1,41 @@
-<div align="center">
-    <img align="center" src="https://raw.githubusercontent.com/Kourva/FletGrm/main/assets/icon.png" width=90 />
-    <h3><b>FletGrm</b></h3>
-    <p>Telegram UI in Flet</p>
-    <kbd>#Flet #Python #Telegram</kbd>
-</div>
+# Vibe — Telegram Clone на Flet (Python) 🚀
 
-# Installation
-1. **Clone repository**:
-    ```bash
-    git clone https://github.com/Kourva/FletGrm
-    ```
-2. **Install flet**:
-    ```bash
-    pip install flet
-    ```
-3. **Run the app**:
-    ```bash
-    flet run main.py
-    ```
-    Or using python:
-    ```bash
-    python main.py
-    ```
+**Найкрасивіший і найшвидший Telegram UI клон** на чистому Python + Flet  
+Один код → працює на **Windows • macOS • Linux • Web • Android • iOS**
 
-# Roadmap
-+ ✅ ~~make login page~~ 
-+ ✅ ~~make otp page~~
-+ ✅ ~~make menu page~~
-+ ✅ ~~make chat page~~
-+ ✅ ~~make profile page~~
-+ ✅ ~~make menu drawer~~
-+ make backend side (can't do it now, bcz don't have API ID and HASH)
-+ compile and make app for android (don't have iphone to test it)
-+ make setting page
-+ add premuim stuff
-+ add channel and groups page
-+ add multiple story border
-+ add light theme and make config file for all colors used in app
-+ and more...
+![Vibe Demo](https://github.com/v-ovdiichuk/Vibe/blob/main/assets/screenshots/demo.gif?raw=true)
 
-# Issues
-+ scroll not working on tabs in menu.
+### Особливості
+- Повністю динамічний UI (чати, stories, профілі)
+- Темна тема (Telegram-style)
+- Swipe-to-reply, voice messages (в планах)
+- Готовий до реального бекенду (Firebase / Telethon)
+
+### Швидкий старт
+
+```bash
+git clone https://github.com/v-ovdiichuk/Vibe.git
+cd Vibe
+pip install -r requirements.txt
+flet run main.py
+```
+### Збірка мобільного додатка
+
+Bashflet build apk          # Android
+flet build aab          # Google Play
+flet build ipa          # iOS (тільки на macOS)
+
+### Roadmap (що робимо зараз)
+
+- Login + OTP + меню + чат ✅ 
+- Виправити скрол у табах меню
+- Оновити під Flet 0.81+
+- Додати реальний чат (Firebase)
+- Light theme + config кольорів
+- Settings + Premium
+- Канали та групи
+- Multiple story borders
+- Voice messages, reactions, files
+
+Автор: @v-ovdiichuk
+Зроблено з ❤️ на Python + Flet
